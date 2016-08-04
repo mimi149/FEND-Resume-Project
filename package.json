@@ -1,0 +1,22 @@
+{
+  "name": "resumeproject",
+  "version": "1.0.0",
+  "description": "## How do I complete this project?",
+  "main": "JS_test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mimi",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-html": "^8.0.2",
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-lint5": "^0.3.2",
+    "grunt-prettyugly": "^0.1.1",
+    "grunt-responsive-images": "^0.1.9",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
