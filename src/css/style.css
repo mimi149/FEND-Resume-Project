@@ -16,7 +16,7 @@
 
 h1 {
     font-size: 40px;
-    color: #F5A623;
+    color: #f5a623;
     line-height: 48px;
     display: inline;
 }
@@ -24,25 +24,28 @@ h1 {
 h2 {
     font-style: bold;
     font-size: 24px;
-    color: #999999;
+    color: #999;
     line-height: 29px;
 }
 
 h3 {
     font-style: italic;
     font-size: 20px;
-    color: #000000;
+    color: #000;
     line-height: 22px;
 }
 
 h4 {
     font-style: bold;
     font-size: 14px;
-    color: #4A4A4A;
+    color: #4a4a4a;
     line-height: 17px;
 }
 
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
     padding: 10px;
     padding-left: 5%;
     padding-right: 5%;
@@ -51,7 +54,7 @@ h2, h3, h4, h5 {
 .date-text {
     font-style: italic;
     font-size: 14px;
-    color: #999999;
+    color: #999;
     line-height: 16px;
     float: left;
 }
@@ -59,20 +62,20 @@ h2, h3, h4, h5 {
 .location-text {
     font-style: italic;
     font-size: 14px;
-    color: #999999;
+    color: #999;
     line-height: 16px;
     float: right;
 }
 
 p {
     font-size: 1em;
-    color: #333333;
+    color: #333;
     line-height: 25px;
     letter-spacing: 1px;
 }
 
 a {
-    color: #1199C3;
+    color: #1199c3;
     text-decoration: none;
     margin-top: 10px;
     display: block;
@@ -81,39 +84,38 @@ a {
 .welcome-message {
     font-style: italic;
     font-size: 18px;
-    color: #F3F3F3;
+    color: #f3f3f3;
     line-height: 28px;
 }
 
-#skillsH3 {
-    color: #F5AE23;
+#skills-h3 {
+    color: #f5ae23;
     display: none;
 }
 
 .orange {
-    background-color: #F5AE23;
+    background-color: #f5ae23;
 }
 
 .orange-text {
-    color: #F5AE23;
+    color: #f5ae23;
 }
 
 .white-text {
     font-weight: bold;
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .gray {
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     padding-bottom: 10px;
     clear: both;
 }
 
 .dark-gray {
-    background-color: #4A4A4A;
+    background-color: #4a4a4a;
 }
 
-/* TODO: Replace with image later */
 #header {
     background-color: rgba(0, 150, 212, 0.88);
 }
@@ -149,10 +151,9 @@ img {
     padding: 10px;
 }
 
-/* Bar chart stuff */
 .chart div {
     font: 10px sans-serif;
-    background-color: #4A4A4A;
+    background-color: #4a4a4a;
     text-align: right;
     padding: 3px;
     margin: 1px;
@@ -165,12 +166,38 @@ span {
     padding: 15px;
 }
 
-#letsConnect {
+#lets-connect {
     text-align: center;
 }
 
+.project-img {
+    width: 420px;
+}
+
+
+#map {
+    display: block;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#map-div {
+    height: 400px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.section {
+    padding-top: 50px;
+}
+
+.sub-section {
+    padding-top: 30px;
+}
+
 @media only screen and (max-width: 1024px) {
-    #letsConnect {
+    #lets-connect {
         margin-top: 5%;
     }
 }
@@ -183,7 +210,7 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-    #letsConnect {
+    #lets-connect {
         margin-top: 10%;
     }
 
@@ -195,32 +222,15 @@ span {
     .welcome-message {
         display: none;
     }
-}
 
-#map {
-    display: block;
-    height: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#mapDiv {
-    height: 400px;
-    width: 100%;
-    padding-bottom: 5%;
-}
-
-@media only screen and (min-width: 320px) {
-    #skillsH3,
-    .biopic {
-        display: block;
+    .project-img {
+        width: 60%;
     }
 }
 
-.section {
-    padding-top: 50px;
-}
-
-.sub-section {
-    padding-top: 30px;
+@media only screen and (min-width: 320px) {
+    #skills-h3,
+    .biopic {
+        display: block;
+    }
 }
