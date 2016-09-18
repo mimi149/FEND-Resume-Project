@@ -99,9 +99,9 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask("default", [
-        "lint5",
-        "htmlhint",
+    "htmlhint",
+        grunt.registerTask("default", [
+        // "lint5",
         "csslint",
         "prettyugly",
         "jshint",
